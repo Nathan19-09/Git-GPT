@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Search</title>
+    <script>
+        function search() {
+            // Get the user input from the search bar
+            var userInput = document.getElementById("searchInput").value;
+
+            // Send the user input to your backend AI for processing
+            // Here, you can use AJAX or fetch to send the input to your server
+            // and receive the response from the AI model
+
+            // For demonstration purposes, let's just log the user input to the console
+            console.log("User Input:", userInput);
+
+            // You can then update the UI with the AI's response
+            // For example, you can display the response in a div element
+            var resultDiv = document.getElementById("searchResult");
+            resultDiv.innerHTML = "AI Response: Processing...";
+        }
+    </script>
+</head>
+<body>
+    <h1>AI Search</h1>
+    <input type="text" id="searchInput" placeholder="Enter your query">
+    <button onclick="search()">Search</button>
+    <div id="searchResult"></div>
+</body>
+</html>
