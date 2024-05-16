@@ -19,3 +19,8 @@ model.fit(train_images, train_labels, epochs=10, validation_data=(test_images, t
 # Evaluate the model
 test_loss, test_acc = model.evaluate(test_images, test_labels)
 print('Test accuracy:', test_acc)
+function search() {
+    var input = document.getElementById('searchInput').value;
+    // Logic to search for answers based on input
+    var answer = "This is the answer to your question: " + input;
+    document.getElementById('answer').innerHTML = answer;
