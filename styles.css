@@ -8,10 +8,10 @@
     margin-bottom: 20px;
 }
 
-#searchResults {
-    margin-bottom: 20px;
-}
-
-#answer {
-    font-weight: bold;
+.answer-box {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
 }
