@@ -1,0 +1,17 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#searchResults {
+    margin-bottom: 20px;
+}
+
+#answer {
+    font-weight: bold;
+}
